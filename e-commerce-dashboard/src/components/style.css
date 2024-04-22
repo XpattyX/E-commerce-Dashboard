@@ -1,0 +1,33 @@
+.overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+    background-color: #fff;
+    border: 2px solid rgb(40, 40, 117);
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 24px;
+}
+.overview-item {
+    text-align: center;
+}
+h3,h4 {
+    margin-bottom: 8px;
+}
+.overview-item>h4 {
+    color: green;
+    font-size: larger;
+}
+.Top5-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 24px;
+}
+.Top5-item {
+    align-items: baseline;
+    background-color: #fff;
+    border: 2px solid rgb(40, 40, 117);
+    border-radius: 24px;
+    padding: 24px;
+    text-align: center;
+}
